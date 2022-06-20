@@ -2,7 +2,7 @@
 package main
 //establecer tipo de dato
 //declaramos la funcion main
-import "correr"
+import "fmt"
 func main(){
 	//palabra reservada para declarar variable es vars nombre de variable y tipo de dato
 	var x, y, z int
@@ -21,5 +21,5 @@ func main(){
 	var cadenas []string
 	nombre := "coco"
 	//no se puede volver a declarar la misma variable
-	correr.Println(nombre)
+	fmt.Println(nombre)
 }
